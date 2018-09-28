@@ -1,0 +1,294 @@
+@import url("base.css");
+/*header 开始*/
+header{
+	width: 100%;
+	height: 1.55rem;
+	background: #50b7fa;
+	padding:0 0.24rem;
+	box-sizing: border-box;
+}
+header .h_top{
+	width: 100%;
+	height: 0.68rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color:#fff;
+	
+}
+header .h_top>a{
+	font-size:0.34rem;
+	color:#fff;
+}
+header .h_top>i{
+	font-size:0.34rem;
+	color:#fff;
+}
+header .h_logo{
+	width: 3rem;
+	height: 3rem;
+	border-radius: 0.05rem;
+	border:0.02rem solid #fff;
+	box-shadow: 0 0.02rem 0.2rem 0.02rem rgba(0,0,0,0.2);
+}
+header .h_logo>img{
+	width: 100%;
+	height: 100%;
+}
+.commInfo{
+	height: 2.15rem;
+	width: 100%;
+	padding-left:3.48rem;
+	position: relative;
+}
+.commInfo>h2{
+	font-size:0.26rem;
+	color:#585858;
+}
+.commInfo .level{
+	
+	height: 0.3rem;
+	line-height: 0.3rem;
+}
+.commInfo .level>i{
+	float:left;
+	color:#fbaa2e;
+}
+.commInfo .level>span{
+	float:left;
+	font-size:0.18rem;
+	color:#a3a3a3;
+}
+.commInfo .price{
+	font-size:0.22rem;
+	color:#149aed;
+	margin: 0.26rem 0;
+}
+.commInfo>p{
+	font-size:0.22rem;
+	color:#8d8d8d;
+}
+.commInfo .choose{
+	width: 1.34rem;
+	height: 0.42rem;
+	position:absolute;
+	right:0.24rem;
+	bottom:0;
+	top:0;
+	margin-top: auto;
+	margin-bottom: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.commInfo .choose .add,.commInfo .choose .sub{
+	font-size:0.42rem;
+	color:#50b9fb;
+}
+.commInfo .choose .sub{
+	opacity: 0;
+}
+.commInfo .choose .num{
+	font-size:0.2rem;
+	color:#1f1f1f;
+	opacity: 0;
+}
+/*header 结束*/
+.con{
+	width: 100%;
+	height: 0.71rem;
+	color:#585858;
+	font-size: 0.22rem;
+	line-height: 0.71rem;
+	padding-left:0.24rem;
+}
+.no_con{
+	width: 100%;
+	height: 0.58rem;
+	color:#989898;
+	font-size: 0.22rem;
+	line-height: 0.58rem;
+	padding-left:0.24rem;
+	background: #f7f7f7;
+}
+.shop{
+	width: 3.22rem;
+	height: 0.4rem;
+	margin:0.32rem auto 0.32rem;
+	background: url(../img/xiushi.png)no-repeat center;
+	background-size: contain;
+	text-align: center;
+	line-height: 0.24rem;;
+	
+}
+.shop>h1{
+	font-size:0.28rem;
+	color:#333;
+	
+}
+/*推荐 开始*/
+.recommend{
+	width: 100%;
+	height: 7.41rem;
+	background: #f6f6f6;
+	padding:0.24rem;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+.recommend::-webkit-scrollbar{
+	width:0;
+}
+.recommend>ul{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+.recommend>ul>li{
+	flex-shrink: 0;
+	width: 3.4rem;
+	height: 4rem;
+	background: #fff;
+	margin-bottom: 0.24rem;
+	border-radius: 0.15rem;
+	box-shadow: 0 0.02rem 0.4rem 0.01rem rgba(0,0,0,0.1);
+}
+.recommend>ul>li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding:0.2rem 0.2rem 0 0.2rem;
+}
+.recommend>ul>li>a>img{
+	display: block;
+	width: 2.92em;
+	height: 2.57em;
+	border-radius: 0.15rem;
+	margin:0 auto;
+}
+.recommend>ul>li>a>h2{
+	font-size:0.26rem;
+	color:#585858;
+}
+.recommend>ul>li>a .intro{
+	font-size:0.16rem;
+	height: 0.23rem;
+	line-height: 0.23rem;
+	color:#a9a9a9;
+}
+.recommend>ul>li>a .intro>span{
+	float:left;
+}
+.recommend>ul>li>a .intro>span:first-child{
+	display: block;
+	height: 0.23rem;
+	width: 0.56rem;
+	background: #fed7e5;
+	margin-right:0.08rem;
+	text-align: center;
+	color:#fe88b3;
+}
+.recommend>ul>li>a .intro>span:last-child{
+	text-decoration: line-through;
+}
+.recommend>ul>li>a .price{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 0.42rem;
+}
+.recommend>ul>li>a .price>span{
+	font-size:0.18rem;
+	color:#149aed;
+	font-weight: bold;
+}
+.recommend>ul>li>a .price .choose{
+	width: 1.34rem;
+	height: 0.42rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.recommend>ul>li>a .price .choose .add,.commInfo .choose .sub{
+	font-size:0.42rem;
+	color:#50b9fb;
+}
+.recommend>ul>li>a .price .choose .sub{
+	opacity: 0;
+}
+.recommend>ul>li>a .price .choose .num{
+	font-size:0.2rem;
+	color:#1f1f1f;
+	opacity: 0;
+}
+.recommend>ul .bottom{
+	width: 100%;
+	margin-top:0.24rem;
+	text-align: center;
+	font-size:0.22rem;
+	color:#888;
+	margin-bottom: 1.22rem;
+}
+/*推荐 结束*/
+/*footer 开始*/
+footer{
+	width: 100%;
+	height: 0.98rem;
+	position: fixed;
+	left:0;
+	bottom:0;
+	display: flex;
+	justify-content: space-between;
+	background: #202020;
+}
+footer .shopcar{
+	position: relative;
+	width: 75%;
+	height: 100%;
+	background: #202020;
+	padding-left:1.5rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+footer .shopcar .car{
+	position: absolute;
+	left:0.33rem;
+	top:-0.22rem;
+	width: 0.82rem;
+	height: 0.82rem;
+	border-radius: 50%;
+	line-height: 0.82rem;
+	text-align: center;
+	color:#6b6c6c;
+	font-size:0.34rem;
+	background: #131313;
+	border:0.05rem solid #292929;
+}
+footer .shopcar .car>img{
+	position: absolute;
+	left:0;
+	top:0;
+	z-index:-1;
+}
+footer .shopcar .no_shop{
+	font-size:0.24rem;
+	color:#8b8b8b;
+}
+footer .shopcar .send{
+	font-size:0.16rem;
+	color:#8b8b8b;
+}
+footer .wind{
+	width: 25%;
+	height: 100%;
+	background: #252525;
+	font-size:0.24rem;
+	color:#fefefe;
+	line-height: 0.98rem;
+	text-align: center;
+}
+/*footer 结束*/

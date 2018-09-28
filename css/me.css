@@ -1,0 +1,278 @@
+@import url("base.css");
+body{
+	background: #f4f4f4;
+}
+/*header 开始*/
+header{
+	width: 100%;
+	height: 2rem;
+	background: #50b7fa;
+	position: relative;
+}
+header .h_top{
+	width: 100%;
+	height: 0.88rem;
+	background: #50b7fa;
+	padding:0 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color:#fff;
+	font-size:0.28rem;
+}
+header .h_top .icon{
+	position: relative;
+	font-size:0.36rem;
+}
+header .h_top .icon>span{
+	position:absolute;
+	right:-0.08rem;
+	top:-0.05rem;
+	display: block;
+	width: 0.22rem;
+	height: 0.22rem;
+	background: #f76b48;
+	border-radius:50%;
+	font-size:0.16rem;
+	text-align: center;
+}
+/*个人信息 开始*/
+.me_info{
+	width: 7.03rem;
+	height: 1.63rem;
+	margin:0 auto;
+	background: #fff;
+	border-radius: 0.15rem;
+	padding:0.35rem 0.28rem 0.35rem 0.28rem;
+	box-sizing: border-box;
+	position: relative;
+	box-shadow: 0 0.02rem 0.4rem 0.01rem rgba(0,0,0,0.1);
+}
+.me_info>a{
+	height:0.4rem;
+	line-height: 0.4rem;
+	font-size:0.22rem;
+	color:#c0c0c0;
+	position:absolute;
+	top:0;
+	bottom:0;
+	margin-top:auto;
+	margin-bottom:auto;	
+	right:0.28rem;
+}
+.me_info>img{
+	width: 0.93rem;
+	height: 0.93rem;
+	float:left;
+	margin-right:0.24rem;
+	border-radius: 50%;
+}
+.me_info .intro{
+	width: 4.84rem;
+	height: 100%;
+	float:left;
+}
+
+.me_info .intro{
+	font-size:0.16rem;
+	color:#8d8d8d;
+	
+}
+.me_info .intro>h3{
+	font-size:0.26rem;
+	color:#4cb0ec;
+	margin-bottom: 0.08rem;
+}
+.me_info .intro .level{
+	float:left;
+}
+.me_info .intro .level>i{
+	color:#fbaa2e;
+}
+.me_info .intro .vip{
+	margin-left:0.05rem;
+	float:left;
+	width: 0.55rem;
+	height: 0.2rem;
+	font-size:0.16rem;
+	color:#fff;
+	text-align: center;
+	line-height: 0.2rem;
+	background: #4fb8f9;
+	border-radius:0.1rem;
+}
+.me_info .intro .date{
+	font-size:0.18rem;
+	color:#adadad;
+	height:0.3rem;
+	margin-top: 0.3rem;
+	line-height: 0.3rem;
+}
+.me_info .intro .date>i{
+	font-size:0.24rem;
+	color:#fc53f8;
+}
+/*个人信息 结束*/
+/*header 结束*/
+/*功能模块开始*/
+.fun{
+	width: 7.02rem;
+	height: 1.39rem;
+	background: #fff;
+	margin:0.75rem auto 0.24rem;
+	border-radius: 0.15rem;
+}
+.fun>ul{
+	width: 100%;
+	height: 100%;
+	padding:0.3rem 0.64rem;
+	font-size:0.24rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	box-shadow: 0 0.02rem 0.4rem 0.01rem rgba(0,0,0,0.1);
+}
+.fun>ul>li>a>span{
+	color:#585858;
+}
+.fun>ul>li>a>p{
+	color:#fab847;
+}
+.fun>ul>li:first-child>a>p{
+	color:#5d98ff;
+}
+.fun>ul>li:last-child>a>p{
+	color:#f750f8;
+}
+/*功能模块结束*/
+/*子功能模块 开始*/
+.fun_o{
+	width: 7.02rem;
+	height: auto;
+	background: #fff;
+	margin:0.24rem auto;
+	border-radius: 0.15rem;
+	box-shadow: 0 0.02rem 0.4rem 0.01rem rgba(0,0,0,0.1);
+}
+.fun_o>ul{
+	width: 100%;
+	height: 100%;
+	padding:0.24rem;
+	box-sizing: border-box;
+}
+.fun_o>ul>li{
+	height: 0.72rem;
+	width: 100%;
+	line-height: 0.72rem;
+}
+.fun_o>ul>li:nth-child(2){
+	border-top:0.01rem solid #f4f4f4;
+	border-bottom:0.01rem solid #f4f4f4;
+}
+.fun_o>ul>li>a>p{
+	font-size:0.24rem;
+	color:#8d8d8d;
+}
+.fun_o>ul>li>a>p>i{
+	font-size:0.38rem;
+	vertical-align: -0.04rem;
+	margin-right:0.3rem;
+	color:#1196d9;
+}
+.fun_o>ul>li:nth-child(2)>a>p>i{
+	color:#d81e07;
+}
+.fun_o>ul>li:last-child>a>p>i{
+	color:#f9ba49;
+}
+/*子功能模块 结束*/
+/*子功能模块2 开始*/
+.fun_t{
+	width: 7.02rem;
+	height: auto;
+	background: #fff;
+	margin:0.24rem auto 1.2rem;
+	border-radius: 0.15rem;
+	box-shadow: 0 0.02rem 0.4rem 0.01rem rgba(0,0,0,0.1);
+}
+.fun_t>ul{
+	width: 100%;
+	height: 100%;
+	padding:0.24rem;
+	box-sizing: border-box;
+}
+.fun_t>ul>li{
+	height: 0.72rem;
+	width: 100%;
+	line-height: 0.72rem;
+}
+.fun_t>ul>li:nth-child(2){
+	border-top:0.01rem solid #f4f4f4;
+	border-bottom:0.01rem solid #f4f4f4;
+}
+.fun_t>ul>li:last-child{
+	border-top:0.01rem solid #f4f4f4;
+}
+.fun_t>ul>li>a>p{
+	font-size:0.24rem;
+	color:#8d8d8d;
+}
+.fun_t>ul>li>a>p>i{
+	font-size:0.38rem;
+	vertical-align: -0.04rem;
+	margin-right:0.3rem;
+	color:#1196d9;
+}
+.fun_t>ul>li:nth-child(2)>a>p>i{
+	color:#f8b948;
+}
+.fun_t>ul>li:nth-child(3)>a>p>i{
+	color:#fa6a48;
+}
+/*子功能模块2 结束*/
+/*tab 开始*/
+.tab{
+	width: 100%;
+	height: 0.98rem;
+	background: #fff;
+	position:fixed;
+	left:0;
+	bottom:0;
+	padding:0 0.48rem;
+	box-sizing: border-box;
+}
+.tab>ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.tab>ul>li{
+	height: 100%;
+	width: 0.5rem;
+}
+.tab>ul>li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.tab>ul>li>a>p{
+	color:#8d8d8d;
+	font-size:0.2rem;
+}
+.tab>ul>li>a>p.active{
+	color:#5e85fd;
+}
+.tab>ul>li>a>i.active{
+	color:#5e85fd;
+}
+.tab>ul>li>a>i{
+	margin-top: 0.18rem;
+	margin-bottom: 0.07rem;
+	display: block;
+	font-size:0.3rem;
+	color:#adadad;
+}
+/*tab 结束*/

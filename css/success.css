@@ -1,0 +1,65 @@
+@import url("base.css");
+/*header 开始*/
+header{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+header>img{
+	width: 100%;
+	height: 100%;
+}
+header .dui{
+	width: 1.91rem;
+	height: 2.12rem;
+	position: absolute;
+	left:0;
+	right:0;
+	margin-right:auto;
+	margin-left:auto;
+	bottom: 1.45rem;
+}
+header .su_info{
+	position: absolute;
+	top:2.4rem;
+	height: 1.1rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size:0.32rem;
+	flex-wrap: wrap;
+}
+header .su_info>p{
+	color:#e3f0fb;
+	text-align: center;
+	flex-shrink: 0;
+	width: 100%;
+}
+header .su_info>p:last-child>span{
+	margin-left:0.1rem;
+}
+/*header 结束*/
+/*返回与继续 开始*/
+.back_agin{
+	margin-top: 0.5rem;
+	width: 100%;
+	height: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+	padding:0 1.34rem;
+	font-size:0.22rem;
+	
+}
+.back_agin .back,.back_agin .agin{
+	color:#fff;
+	display: block;
+	text-align: center;
+	line-height: 0.5rem;
+	width: 1.65rem;
+	height: 100%;
+	background: #4cafed;
+	border-radius: 0.25rem;
+}
+
+/*返回与继续 结束*/

@@ -1,0 +1,238 @@
+@import url("base.css");
+body{
+	background: #f4f4f4;
+}
+/*header 开始*/
+header{
+	width: 100%;
+	height: 3.7rem;
+	background: #50b7fa;
+	padding:0 0.24rem;
+	position: relative;
+}
+header .h_top{
+	height: 0.88rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .h_top>a{
+	font-size:0.24rem;
+	color:#fff;
+}
+header .h_top>h1{
+	font-size:0.28rem;
+	color:#fff;
+}
+header .target_info{
+	height: 0.5rem;
+	display: flex;
+	align-items: center;
+}
+header .target_info .target{
+	float:left;
+	font-size:0.26rem;
+	color:#c8e9fc;
+}
+header .target_info>span{
+	float:left;
+	font-size:0.18rem;
+	display: block;
+	width: 0.57rem;
+	height: 0.24rem;
+	border-radius: 0.12rem;
+	border:0.01rem solid #fff;
+	line-height: 0.24rem;
+	text-align: center;
+	color:#fff;
+	margin-left: 0.15rem;
+}
+header .addr{
+	font-size:0.28rem;
+	color:#fff;
+	margin:0.15rem 0;
+}
+header .info{
+	font-size:0.26rem;
+	color:#c8e9fc;	
+}
+/*header 结束*/
+/*订单详情 开始*/
+.order_data{
+	width: 7.02rem;
+	height: 8.55rem;
+	position:absolute;
+	left:0;
+	right:0;
+	margin-right:auto;
+	margin-left:auto;
+	top:2.9rem;
+	
+}
+.order_data .order_data_t{
+	padding:0 0.24rem;
+	background: #fff;
+	border-radius:0.15rem;
+	height: 1.51rem;
+	box-shadow: 0 0.02rem 0.4rem 0.01rem rgba(0,0,0,0.1);	
+}
+.order_data .order_data_t>ul{
+	width: 100%;
+	height: 100%;
+}
+.order_data .order_data_t>ul>li{
+	width: 100%;
+	height: 0.75rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.order_data .order_data_t>ul>li .date{
+	font-size:0.28rem;
+	color:#595959;
+}
+.order_data .order_data_t>ul>li .clock{
+	font-size:0.24rem;
+	color:#7cc8fc;
+}
+.order_data .order_data_t>ul>li:last-child .clock>i{
+	color:#595959;
+	vertical-align: 0.03rem;
+}
+.order_data .order_data_t>ul>li:first-child{
+	border-bottom: 0.01rem solid #f4f4f4;
+}
+.order_data .order_data_c{
+	padding:0 0.24rem;
+	background: #fff;
+	border-radius:0.15rem;
+	height: 5.05rem;
+	box-shadow: 0 0.02rem 0.4rem 0.01rem rgba(0,0,0,0.1);
+	margin: 0.24rem 0;
+}
+.order_data .order_data_c>ul{
+	width: 100%;
+	height: 100%;
+}
+.order_data .order_data_c>ul>li{
+	width: 100%;
+	height: 0.72rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.order_data .order_data_c>ul>li:nth-child(2){	
+	height: 1.36rem;
+}
+.order_data .order_data_c>ul>li:nth-child(2) .num{
+	font-size:0.28rem;
+	color:#595959;
+	margin-right:0.8rem;
+}
+.order_data .order_data_c>ul>li:nth-child(2) .icon{
+	display: block;
+	transform: rotateZ(45deg);
+	color:#7cc8fc;
+	font-size:0.28rem;
+	margin-left:0.5rem;
+}
+.order_data .order_data_c>ul>li:nth-child(2) .food_name{
+	font-size:0.28rem;
+	color:#595959;
+}
+.order_data .order_data_c>ul>li:nth-child(4) .clock{
+	color:#595959;
+}
+.order_data .order_data_c>ul>li:nth-child(4) .clock>i{
+	vertical-align: 0.03rem;
+}
+.order_data .order_data_c>ul>li .date{
+	font-size:0.28rem;
+	color:#595959;
+}
+.order_data .order_data_c>ul>li .clock{
+	font-size:0.24rem;
+	color:#7cc8fc;
+}
+.order_data .order_data_c>ul>li:last-child .clock>i{
+	color:#595959;
+	vertical-align: 0.03rem;
+}
+.order_data .order_data_c>ul>li:first-child{
+	border-bottom: 0.01rem solid #f4f4f4;
+}
+.order_data .order_data_b{
+	padding:0 0.24rem;
+	background: #fff;
+	border-radius:0.15rem;
+	height: 1.51rem;
+	box-shadow: 0 0.02rem 0.4rem 0.01rem rgba(0,0,0,0.1);
+	margin-bottom: 1.22rem;
+}
+.order_data .order_data_b>ul{
+	width: 100%;
+	height: 100%;
+}
+.order_data .order_data_b>ul>li{
+	width: 100%;
+	height: 0.75rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.order_data .order_data_b>ul>li:first-child{
+	border-bottom: 0.01rem solid #f4f4f4;
+}
+.order_data .order_data_b>ul>li .date{
+	font-size:0.28rem;
+	color:#595959;
+}
+.order_data .order_data_b>ul>li .clock{
+	font-size:0.24rem;
+	color:#595959;
+}
+.order_data .order_data_b>ul>li:last-child .clock>i{
+	color:#595959;
+	vertical-align: 0.03rem;
+}
+/*订单详情 结束*/
+/*footer 开始*/
+footer{
+	width: 100%;
+	height: 0.98rem;
+	position: fixed;
+	left:0;
+	bottom:0;
+	display: flex;
+	justify-content: space-between;
+	background: #202020;
+}
+footer .shopcar{
+	position: relative;
+	width: 75%;
+	height: 100%;
+	background: #202020;
+	padding-left:0.24rem;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+footer .shopcar .no_shop{
+	font-size:0.24rem;
+	color:#8b8b8b;
+	color:#fff;
+}
+
+footer .wind{
+	width: 25%;
+	height: 100%;
+	background: #252525;
+	font-size:0.24rem;
+	color:#fefefe;
+	line-height: 0.98rem;
+	text-align: center;
+}
+/*footer 结束*/

@@ -1,0 +1,125 @@
+@import url("base.css");
+body{
+	background: #fff;
+}
+/*logo开始*/
+.logo{
+	width: 1.57rem;
+	height: 1.57rem;
+	margin:1.52rem auto 0;
+}
+.logo>img{
+	width: 100%;
+	height: 100%;
+}
+/*logo结束*/
+/*注册框开始*/
+.reg_box{
+	background: #fff;
+	position: relative;
+	width: 5.99rem;
+	height: 6.54rem;
+	border-radius: 0.15rem;
+	box-shadow: 0 0.02rem 0.2rem 0.02rem rgba(0,0,0,0.1);
+	margin:0.93rem auto 0;
+}
+.reg_box .bg{
+	width: 5.54rem;
+	height: 1rem;
+	border-radius: 0.15rem;
+	z-index: -1;
+	position: absolute;
+	top:-0.12rem;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+	background: #4badea;
+}
+.inner_box{
+	width: 4.72rem;
+	height: 4.06rem;
+	
+	position: absolute;
+	top:1.35rem;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+.inner_box .input{
+	display: block;
+	width: 100%;
+	height: 0.54rem;
+	border-radius: 0.27rem;
+	border:0.01rem solid #999;
+	margin-bottom:0.44rem;
+}
+
+.inner_box input{
+	display: block;
+	outline: none;
+	height: 0.54rem;
+	background: none;
+	text-indent: 2em;
+	font-size:0.22rem;
+}
+.inner_box input::-webkit-input-placeholder{
+	color:#dddddd;
+}
+.inner_box .btn{
+	margin-top: 0.68rem;
+	margin-bottom: 0;
+	background: #4dafee;
+	border:0;
+	font-size:0.22rem;
+	color:#fff;
+	line-height: 0.54rem;
+	text-align: center;
+}
+.inner_box .mess{
+	width: 100%;
+	
+	margin-top: 0.22rem;
+	display: flex;
+	justify-content: space-between;
+}
+.inner_box .mess>a{
+	font-size:0.16rem;
+	color:#dedede;
+}
+.inner_box .zhuangshi{
+	position: relative;
+	width: 4.03rem;
+	height: 0.3rem;
+	margin:0.58rem auto 0;
+}
+.inner_box .zhuangshi>img{
+	display: block;
+}
+.inner_box .zhuangshi>p{
+	color:#dddddd;
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+	margin-left: auto;
+	margin-right: auto;
+	font-size:0.22rem;
+	text-align: center;
+}
+.server{
+	width: 2.82rem;
+	margin:0.35rem auto 0;
+	display: flex;
+	justify-content: space-between;
+}
+.server>img{
+	width: 0.76rem;
+	height: 0.76rem;
+}
+.server>img:nth-child(2){
+	width: 0.68rem;
+	height: 0.68rem;	
+}
+/*注册框结束*/

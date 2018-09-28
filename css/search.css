@@ -1,0 +1,129 @@
+@import url("base.css");
+.clearfix:after{
+	content:"";
+	display: block;
+	clear: both;
+}
+/*header 开始*/
+header{
+	width: 100%;
+	height: 0.88rem;
+	padding:0.18rem 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .icon{
+	display: block;
+	font-size:0.26rem;
+	color:#ccc;
+}
+header .search{
+	width: 4.72rem;
+	height: 100%;
+	background: rgb(248,248,248);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 0.24rem;
+}
+header .search>i{
+	font-size:0.22rem;
+	color:#ccc;
+}
+
+header .search>input{
+	flex:1;
+	height: 100%;
+	outline: none;
+	background: rgb(248,248,248);
+	text-indent: 1em;
+	font-size:0.24rem;
+}
+header .search>input::-webkit-input-placeholder{
+	color:#ccc;
+}
+header>p{
+	font-size:0.3rem;
+	color:#333;
+}
+/*header 结束*/
+/*历史搜索 开始*/
+.his_box{
+	display: none;
+}
+.histroy{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:0 0.24rem;
+	margin:0.3rem 0;
+}
+.histroy>h2{
+	font-size:0.28rem;
+	color:#999;
+}
+.histroy>i{
+	font-size:0.24rem;
+	color:#ccc;
+}
+.his{
+	width: 100%;
+	padding:0 0.24rem;
+}
+.his>ul{
+	width: 100%;
+	height: 100%;
+}
+.his>ul>li{
+	float:left;
+	height:0.55rem;
+	margin-bottom: 0.24rem;
+}
+.his>ul>li>a{
+	display: block;
+	height: 100%;
+	padding:0 0.16rem;
+	line-height: 0.55rem;
+	font-size:0.26rem;
+	color:#999;
+	background: rgb(247,247,247);
+	border-radius: 0.05rem;
+	margin-right:0.24rem;
+	
+}
+.hot_s{
+	width: 100%;
+	padding:0 0.24rem;
+}
+.hot_s>ul{
+	width: 100%;
+	height: 100%;
+}
+.hot_s>ul>li{
+	float:left;
+	height:0.55rem;
+	margin-bottom: 0.24rem;
+}
+.hot_s>ul>li>a{
+	display: block;
+	height: 100%;
+	padding:0 0.16rem;
+	line-height: 0.55rem;
+	font-size:0.26rem;
+	color:#999;
+	background: rgb(247,247,247);
+	border-radius: 0.05rem;
+	margin-right:0.24rem;
+	
+}
+/*历史搜索 结束*/
+/*热门搜索 开始*/
+.hot{
+	font-size:0.28rem;
+	color:#999;
+	padding-left:0.24rem;
+	margin:0.3rem 0;
+}
+/*热门搜索 结束*/

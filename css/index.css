@@ -1,0 +1,356 @@
+@import url("base.css");
+/*header 开始*/
+header{
+	z-index:99;
+	position: fixed;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 1.55rem;
+	background:#50b8fa;
+	padding:0.26rem 0.24rem 0;
+	font-size:0.28em;
+	color:#fff;
+}
+header .location{
+	margin-bottom: 0.05rem;
+}
+header .location>i{
+	font-size:0.5rem;
+	vertical-align: -0.08rem;
+}
+header .search{
+	display: block;
+	width: 6.42rem;
+	height: 0.56rem;
+	border-radius:0.28rem;
+	background:#fff;
+}
+
+header .search .i_search{
+	height: 0.56rem;
+	line-height: 0.56rem;
+	float:right;
+	font-size:0.48rem;
+	color:#ccc;
+	margin-right:0.24rem;
+}
+/*header 结束*/
+/*banner 开始*/
+.banner{
+	position:relative;
+	width: 7.03rem;
+	height: 3.5rem;
+	margin:1.8rem auto 0;
+	border-radius:0.15rem;
+	overflow: hidden;
+	overflow: hidden;
+}
+.banner .banner_img{
+	width: 100%;
+	height: 100%;
+}
+.banner .banner_img>li{
+	position: absolute;
+	left:0;
+	right:0;
+	width: 100%;
+	height: 100%;
+}
+.banner .btns{
+	width: 0.98rem;
+	height: 0.13rem;
+	position:absolute;
+	left:0;
+	right:0;
+	margin-right:auto;
+	margin-left:auto;
+	bottom:0.28rem;
+	display: flex;
+	justify-content: space-between;
+}
+.banner .btns>li{
+	width: 0.13rem;
+	height: 0.13rem;
+	background: #fff;
+	border-radius: 50%;
+}
+.banner .btns>li.active{
+	background: #50b8fa;
+}
+/*banner 结束*/
+/*select 开始*/
+.select{
+	width: 7.03rem;
+	height: 3.6rem;
+	margin:0.44rem auto 0.22rem;
+}
+.select>ul{
+	width: 100%;
+	height: 100%;
+	/*display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;*/
+	
+}
+.select>ul>li{
+	text-align: center;
+	float:left;
+	margin-right: 0.70rem;
+	width: 1.20rem;
+	height: 1.8rem;
+}
+.select>ul>li:nth-child(4n){
+	margin-right:0;
+}
+.select>ul>li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.select>ul>li>a>img{
+	display: block;
+	width: 1.20rem;
+	height: 1.20rem;
+	border-radius:50%;
+	margin-bottom: 0.14rem;
+}
+.select>ul>li>a>p{
+	font-size:0.24rem;
+	color:#737373;
+}
+/*select 结束*/
+/*次级广告位 开始*/
+.sec_adv{
+	margin: 0.68rem auto 0.62rem;
+	width: 7.03rem;
+	height: 2rem;
+	border-radius: 0.15rem;
+	overflow: hidden;
+}
+.sec_adv>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	/*background: url(../img/sec.png)no-repeat -0.1rem -1.5rem;*/
+	
+}
+.sec_adv>a>img{
+	width: 100%;
+	height: 100%;
+	border-radius: 0.15rem;
+}
+/*次级广告位 结束*/
+/*商家推荐 开始*/
+/*标题 开始*/
+.shop{
+	width: 3.22rem;
+	height: 0.4rem;
+	margin:0 auto 0.32rem;
+	background: url(../img/xiushi.png)no-repeat center;
+	background-size: contain;
+	text-align: center;
+	line-height: 0.24rem;;
+	
+}
+.shop>h1{
+	font-size:0.28rem;
+	color:#333;
+	
+}
+/*标题结束*/
+/*分类开始*/
+.kind{
+	width: 7.03rem;
+	height: 0.3rem;
+	margin:0 auto 0.25rem;
+}
+.kind .kind_ul{
+	width: 100%;
+	height: 100%;
+	font-size:0.24rem;
+	display: flex;
+	justify-content: space-between;
+}
+.kind .kind_ul>li>a{
+	color:#747474;
+	
+}
+.kind .kind_ul>li>a:hover{
+	color:#595959;
+}
+.kind .kind_ul>li>a.active{
+	color:#595959;
+}
+.kind .kind_ul>li:last-child > a>i{
+	font-size:0.2rem;
+	margin-left:0.05rem;
+}
+/*分类结束*/
+/*商家店铺 开始*/
+.shoplist_bg{
+	width: 100%;
+	height:11.10rem;
+	background: #f4f4f4;
+	padding:0.24rem;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+.shoplist_bg::-webkit-scrollbar{
+	width:0;
+}
+.shoplist_bg>ul{
+	width: 7.03rem;
+	height:auto;
+	background: #f4f4f4;
+}
+.shoplist_bg>ul>li{
+	padding:0.24rem;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	height: 2.14rem;
+	background: #fff;
+	margin-bottom: 0.24rem;
+	border-radius:0.15rem;
+	box-shadow: 0 0.02rem 0.4rem 0.01rem rgba(0,0,0,0.2);
+}
+.shoplist_bg>ul>li .meitaun{
+	position:absolute;
+	right:0.46rem;
+	top:-0.06rem;
+	width: 0.47rem;
+	height: 0.4rem;
+	background: url(../img/meituan.png)no-repeat center;
+}
+.shoplist_bg>ul>li:last-child{
+	margin-bottom: 0.98rem;
+}
+.shoplist_bg>ul>li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.shoplist_bg>ul>li>a>img{
+	width: 1.46rem;
+	height: 1.46rem;
+	float:left;
+	margin-right:0.24rem;
+}
+.shoplist_bg>ul>li>a .intro{
+	width: 4.5rem;
+	height: 100%;
+	float:left;
+}
+/*商家简介 开始*/
+.shoplist_bg>ul>li>a .intro{
+	font-size:0.16rem;
+	color:#8d8d8d;
+}
+.shoplist_bg>ul>li>a .intro>h3{
+	font-size:0.26rem;
+	color:#585858;
+}
+.shoplist_bg>ul>li>a .intro .level>i{
+	color:#fbaa2e;
+}
+.shoplist_bg>ul>li>a .intro .level>span{
+	font-size:0.18rem;
+	color:#a3a3a3;
+}
+.shoplist_bg>ul>li>a .intro .price{
+	font-size:0.18rem;
+	color:#adadad;
+	margin-top:0.05rem;
+}
+.shoplist_bg>ul>li>a .intro .discount{
+	/*display: block;*/
+	color:#8d8d8d;
+	height:0.3rem;
+	margin-bottom: 0.05rem;
+	margin-top: 0.05rem;
+	line-height: 0.3rem;
+}
+.shoplist_bg>ul>li>a .intro .discount span{
+	display: block;
+	float:left;
+}
+.shoplist_bg>ul>li>a .intro .discount span:first-child{
+	margin-top: 0.04rem;
+	width: 0.52rem;
+	height: 0.21rem;
+	background: #fed7e5;
+	color:#fe88b3;
+	line-height: 0.21rem;
+	text-align: center;
+	margin-right:0.13rem;
+	font-size:0.12rem;
+}
+.shoplist_bg>ul>li>a .intro .discount span:last-child{
+	line-height: 0.3rem;
+}
+.shoplist_bg>ul>li>a .intro .first{
+	height:0.3rem;
+}
+.shoplist_bg>ul>li>a .intro .first>span{
+	display: block;
+	float:left;
+}
+.shoplist_bg>ul>li>a .intro .first>span:first-child{
+	width: 0.52rem;
+	height: 0.21rem;
+	background: #d9f1fe;
+	color:#85d2fb;
+	line-height: 0.21rem;
+	text-align: center;
+	margin-right:0.13rem;
+	font-size:0.12rem;
+}
+/*商家简介 结束*/
+/*商家店铺 结束*/
+/*商家推荐 结束*/
+/*tab 开始*/
+.tab{
+	width: 100%;
+	height: 0.98rem;
+	background: #fff;
+	position:fixed;
+	left:0;
+	bottom:0;
+	padding:0 0.48rem;
+	box-sizing: border-box;
+}
+.tab>ul{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.tab>ul>li{
+	height: 100%;
+	width: 0.5rem;
+}
+.tab>ul>li>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.tab>ul>li>a>p{
+	color:#8d8d8d;
+	font-size:0.2rem;
+}
+.tab>ul>li>a>p.active{
+	color:#5e85fd;
+}
+.tab>ul>li>a>i.active{
+	color:#5e85fd;
+}
+.tab>ul>li>a>i{
+	margin-top: 0.18rem;
+	margin-bottom: 0.07rem;
+	display: block;
+	font-size:0.3rem;
+	color:#adadad;
+}
+/*tab 结束*/

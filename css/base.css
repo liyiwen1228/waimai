@@ -1,0 +1,18 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+	list-style: none;
+	box-sizing: border-box;
+	/*在移动端轻击的时候会有默认颜色*/
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	/*禁止用户修改字体大小*/
+	-webkit-text-size-adjust: none;
+}
+
+a{
+	text-decoration: none;
+}
+i{
+	font-style:normal;
+}
